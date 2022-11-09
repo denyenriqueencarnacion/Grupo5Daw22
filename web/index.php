@@ -41,7 +41,7 @@ if (isset($_SESSION["nombreUser"])) {
     );
 }
 
-
+//pepeppepep
 // Traduccion de la ruta
 if (isset($_GET['ctl'])) {
     if (isset($map[$_GET['ctl']])) {
