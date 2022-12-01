@@ -1,0 +1,5 @@
+Hemos creado un repositorio en github y se ha subido los archivos correspondiente.
+Por otra parte se ha encargado de crear la base de datos en CDmon mediante ssh y comandos de git.
+Por ultimo hemos modificado un archivo .php y hemos subido al repositorio mediante mediante la interfaz de git bash.
+
+URL del hosting: http://www.adrian.es.mialias.net
