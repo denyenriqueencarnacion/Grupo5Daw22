@@ -1,0 +1,17 @@
+Para el despliegue de la aplicación al hosting cdmon he tenido que realizar las siguientes acciones:
+-En primer lugar se ha de crear la bbdd que se usará para el proyecto. Esta tiene el nombre de alimentos52002.
+-En el hosting, para poder realizar la conexion a github, se tiene que habilitar en la plataforma el cliente Git. 
+-Una vez realizado el paso anterior establezco la conexión a través de ssh -> ssh adrianb9@185.66.42.226
+-Se realizan las siguientes acciones:
+  * cd ../web (para situarse en esta carpeta).
+  * mkdir proyecto52022 (para crear la carpeta especifica del ejercicio)
+  * git .init (para realizar el seguimiento de esta carpeta por parte de git)
+  * git remote add origin https://github.com/denyenriqueencarnacion/Grupo5Daw22.git (para establecer la conexión al repositorio de github)
+
+-Antes de descargar el proyecto, ahi que realizar un paso intermedio que consiste en generar un "personal token" para realizar la autentificación a través de la terminal
+pues la opción de realizar esta operación con nuestra contraseña se deshabilitó en agosto de 2021. Para esto, vamos a ajustes de nuestro perfil de github, al apartado
+de ajustes para desarrolladores y seleccionamos la opción de generar un "personal token" clasico.
+
+  * git -c http.sslVerify=false clone https://github.com/denyenriqueencarnacion/Grupo5Daw22.git (-c http.sslVerify=false para ignorar la verificación del certificado
+  SSH)
+  * Introducimos nuestro usuario y "personal token" de github.
