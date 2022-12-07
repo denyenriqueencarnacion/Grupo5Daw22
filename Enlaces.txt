@@ -1,0 +1,13 @@
+ENTREGA DE PROYECTO: PROGRAMANDO Y DESPLEGANDO EN GRUPO
+
+- El enlace o URL (del hosting en el que esté ubicado Cdmon). Indicar usuario y password para acceso web.
+http://www. adrian.es.mialias.net/proyecto52022/Grupo5Daw22/
+Usuario: adrian152
+ Contraseña: Rs72zk3M
+- URL del proyecto público a GitHub.
+https://github.com/javiergr2001/GRUPO2DAW21
+
+- Se indicarán los integrantes del grupo.
+·Adrián Andrade Sáenz.
+·Deny Enrique Encarnación Aquino.
+·José María Jiménez Franco.
